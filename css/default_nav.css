@@ -21,12 +21,12 @@ body, html { font-size: 15px; padding: 0; margin: 0;}
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	color: #89867e;
-	background: #f9f9f9;
+	color: rgb(240, 238, 209);
+/*	background: rgb(240 ,238 ,209); */
 }
 
 a {
-	color: #333;
+	color: rgb(240, 238, 209);
 	text-decoration: none;
 }
 
@@ -36,9 +36,9 @@ a:hover {
 
 .main,
 .container > header {
-	width: 100%;
+	width: 100%; 
 	margin: 0 auto;
-	padding: 2em;
+/*	padding: 2em;*/
 }
 
 .main {
@@ -68,7 +68,7 @@ a:hover {
 }
 
 /* Header Style */
-.codrops-top {
+/*.codrops-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.4);
 	text-transform: uppercase;
@@ -76,7 +76,7 @@ a:hover {
 	width: 100%;
 	font-size: 0.7em;
 	line-height: 2.2;
-}
+}*/
 
 .codrops-top a {
 	padding: 0 1em;
@@ -134,3 +134,48 @@ a:hover {
 	}
 }
 
+
+.icon-logo {
+    width: 100%;
+        max-height: 160px;
+        max-width:  400px;
+/*    height: 100%;*/
+/*    width:400px;*/
+    display: inline-block;
+}
+
+
+.nav {
+    position: absolute;
+    right: 0%;
+    max-width:60%;
+    width: 60%;
+    float: right;
+
+}
+
+.logo {
+   /* float:left; */
+	width: 40%;
+    max-width:100%;
+    background-color: rgb(66 ,62, 76);
+}
+
+footer {
+    padding-top: 1px;
+    clear: both;
+    text-align: center;
+    color: rgb(176, 212, 207);
+    background-color: rgb(141,122,132);
+}
+
+.detail {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+}
+
+.detail h1 ,p{
+text-align: center;
+}
